@@ -3,9 +3,18 @@
 <title> Assassains Wiki </title>
 <body> 
 <div id="head">
-<h1>
-Assassains' Wiki
-</h1>
+<canvas id="myCanvas" width="1500" height="200"
+style="border:1px solid #d3d3d3;">
+
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx=canvas.getContext("2d");
+ctx.font="30px Comic Sans MS";
+ctx.fillStyle = "red";
+ctx.textAlign = "center";
+ctx.fillText("Assassain Wiki", canvas.width/2, canvas.height/2);
+</script>
 </div>
 <br/>
 <div class="container">
@@ -68,7 +77,7 @@ Ultimate Skill: Vendetta Fraterna: 70 dmg dark aoe, 120%accuracy, aoe 100% bleed
 Bellow are current highlited war of Asasin Family and friends:
 <ul>
 <li> Insane Assassains vs. Team Master (LA) </li>
-<li> United vs. Resuruction of AMAB </li>
+<li> United Assassains vs. Resuruction of AMAB </li>
 </ul>
 <link type="text/css" rel="stylesheet" href="indexAssassains.css"/>
 </body>
